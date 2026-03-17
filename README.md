@@ -9,3 +9,8 @@ A machine learning project that classifies SMS/email messages as **spam** or **h
 This project builds a text classification pipeline on the UCI SMS Spam Collection dataset. It compares 11 different ML classifiers and selects **Multinomial Naive Bayes** as the final model based on precision — the key metric here, since false positives (marking a real email as spam) are more costly than false negatives.
 
 ---
+
+## Install dependencies
+   ```
+   pip install -r requirements.txt
+   ```
